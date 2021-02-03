@@ -15,30 +15,15 @@ public class Rectangle implements Shape {
         this.color = color;
     }
 
-    public double getWidth(){
+    public double getWidth(){ return width; }
 
-        return width;
-    }
+    public void setWidth(double width){ this.width = width; }
 
-    public void setWidth(double width){
+    public double getHeight(){ return height; }
 
-        this.width = width;
-    }
+    public void setHeight(double height){ this.height = height; }
 
-    public double getHeight(){
-
-        return height;
-    }
-
-    public void setHeight(double height){
-
-        this.height = height;
-    }
-
-    public Point getTopLeft(){
-
-        return topLeft;
-    }
+    public Point getTopLeft(){ return topLeft; }
 
     public boolean equals(Object o){
 
@@ -52,13 +37,9 @@ public class Rectangle implements Shape {
                 this.color.equals(other.color);
     }
 
-    public Color getColor(){
-        return color;
-    }
+    public Color getColor(){ return color; }
 
-    public void setColor(Color c){
-        color = c;
-    }
+    public void setColor(Color c){ color = c; }
 
     public double getArea(){
 

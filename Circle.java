@@ -48,13 +48,13 @@ public class Circle implements Shape {
     }
 
     public double getArea(){
-        double area;
+        double area = 0.0;
         area = Math.PI * (Math.pow(radius, 2.0));
         return area;
     }
 
     public double getPerimeter(){
-        double perimeter;
+        double perimeter = 0.0;
         perimeter = 2 * Math.PI * radius;
         return perimeter;
 
